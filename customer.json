@@ -1,0 +1,29 @@
+{
+    "customer1" : {
+       "name" : "Brad",
+       "dessert" : "Choco Vanilla Shake",
+       "price" : "price1",
+       "addons": {
+          "1":"With low Calorie sugar",
+          "2":"with toppings and cream",
+          "3":"with cream only"
+
+       },  
+       
+       "id": 1
+    },
+    
+    "customer2" : {
+       "name" : "Gaby",
+       "dessert" : "Red Velvet muffin shake",
+       "price" : "price3",
+       "id": 2
+    },
+    
+    "customer3" : {
+       "name" : "Eli",
+       "password" : "Blueberry Chesse Shake",
+       "price" : "price3",
+       "id": 3
+    }
+ }
