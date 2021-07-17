@@ -1,6 +1,15 @@
 # Dockerfile for Nodejs Webapp
 
-Created a web service using Dockerfile which is required to make your Nodejs web app run inside a Docker container.
+Created a RESTful web service that runs in a Docker container.
+Dockerfile used to make your Nodejs web app run inside a Docker container.
+
+# Insight:
+The web service contains four GET routes:
+1) One that displays a collection of records.
+2) One that displays a single record that corresponds to an ID. Example: I created two routes; /customers and /customers/1 (note: that '1' is the ID of a given customer in my database).
+3) One that displays a collection of records for a given entity. Example: /customers/1/addons (note: that '1' is the ID of a given customer in my database).
+4) One that displays a single record from a collection of a given entity. Example: /customers/1/addons/2 (note: that '2' is that ID of a given order submitted by customer with ID '1' in my database).
+
 
 The Dockerfile:
 
