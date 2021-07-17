@@ -1,4 +1,4 @@
-# Dockerfile for Nodejs Webapp
+# RESTful web service - Dockerfile for Nodejs Webapp
 
 Created a RESTful web service that runs in a Docker container.
 Dockerfile used to make your Nodejs web app run inside a Docker container.
